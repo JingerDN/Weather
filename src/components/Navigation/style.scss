@@ -1,0 +1,38 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&display=swap");
+
+.navbar-brand {
+  & img {
+    height: 30pt;
+    width: 70pt;
+  }
+}
+.navbar-dark .navbar-nav .nav-link,
+.dropdown-item {
+  font-family: "Space Grotesk", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.dropdown-item {
+  border-radius: 10px;
+}
+.navbar-nav .dropdown-menu {
+  border-radius: 20px;
+}
+/*--------------------------------------------------------------------*/
+/* Change theme-colors */
+$theme-colors: (
+  primary: #234d7b,
+  secondary: #3b3c3e,
+  success: #1e6111,
+  info: #00ffff,
+  warning: #fff700,
+  danger: #ff8c00,
+);
+
+/*--------------------------------------------------------------------*/
+/* === Bootstrap Main SCSS === */
+@import "bootstrap/scss/bootstrap";
+/*--------------------------------------------------------------------*/

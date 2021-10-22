@@ -1,0 +1,30 @@
+.greeting_badges {
+  & img {
+    width: auto;
+    height: 60px;
+  }
+  display: flex;
+  flex-direction: row;
+}
+.wrapper {
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.greeting_img {
+  & img {
+    width: 350px;
+    height: auto;
+  }
+}
+.greeting_title {
+  & .orange_text {
+    color: #eb6e4b;
+    font-size: 45px;
+  }
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}

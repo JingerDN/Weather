@@ -1,0 +1,14 @@
+{
+    "presets":[[
+        "@babel/env",
+    {
+        "corejs":3,
+        "useBuiltIns":"usage",
+        "debug":true,
+        "modules":false  //подключение присетов через import,без трансформации в require
+    }],
+        "@babel/react"
+
+],
+    "plugins":["@babel/proposal-class-properties"]
+}
